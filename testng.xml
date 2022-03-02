@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" preserve-order="true">
+
+    <test thread-count="1" name="On Source activity" preserve-order="true">
+        <classes>
+            <class name="org.example.LoginAPIAutomaTest">
+                <parameter name="username" value="smoke_oadelt1@rivigo.com"></parameter>
+                <parameter name="password" value="Smoketest@zoom5"></parameter>
+                <methods>
+                <include name="setup"></include>
+                    <include name="cnCreation"></include>
+                    <include name="arrivalPending"></include>
+
+                    <!--                <include name="testToAddress"></include>-->
+<!--                <include name="testConsignmentCreation"></include>-->
+                </methods>
+            </class>
+
+        </classes>
+    </test>
+</suite>
