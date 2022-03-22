@@ -94,7 +94,7 @@ public class LoginAPIAutomaTest extends BaseTestClass {
         //    Assert.assertNotNull(barcodes1);
     }
 
-    @Test(priority = 1)
+   // @Test(priority = 1)
         public void arrivalPending(){
             test = extent.createTest("arrivalPending");
 
