@@ -1,16 +1,15 @@
 package org.example;
-import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
-import org.junit.Assert;
-import org.testng.annotations.Test;
-
-import  static io.restassured.RestAssured.*;
-import static java.lang.System.currentTimeMillis;
-import static org.hamcrest.Matchers.*;
-
+//import io.restassured.RestAssured;
+//import io.restassured.path.json.JsonPath;
+//import org.junit.Assert;
+//import org.testng.annotations.Test;
+//import  static io.restassured.RestAssured.*;
+//import static java.lang.System.currentTimeMillis;
+//import static org.hamcrest.Matchers.*;
 
 
-import java.util.Random;
+
+// import java.util.Random;
 
 public class payload {
 
