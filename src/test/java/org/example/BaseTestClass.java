@@ -56,6 +56,7 @@ public class BaseTestClass {
     public static void initialiseProperties_Zoom() throws Exception {
         prop = new PropertiesUtils();
         prop.setPropertyFile(projectdir+"/src/main/resources/application.properties");
+
         baseURL=prop.gettingValueOfProperty("ZoomBaseUrl");
         tokenURL=prop.gettingValueOfProperty("login.stg.url");
 
@@ -105,7 +106,7 @@ public class BaseTestClass {
         extent.attachReporter(htmlReporter);
         extent.setSystemInfo("OS", "Linux");
         extent.setSystemInfo("Browser", "Chrome");
-        extent.setSystemInfo("Author","Prashant");
+        extent.setSystemInfo("Author","Prashant Jadon");
     }
 
     @AfterClass

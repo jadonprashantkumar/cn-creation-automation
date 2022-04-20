@@ -16,6 +16,7 @@ public class LoginAPIAutomaTest extends BaseTestClass {
 
 
 
+
     @Test(priority = 0)
     public void cnCreation() {
         test = extent.createTest("cnCreation");
